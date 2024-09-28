@@ -2,6 +2,7 @@
   "name": "rnvideo-ffmpeg-processor",
   "version": "1.0.0",
   "description": "A React Native module for video processing using FFmpeg",
+  "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
     "react-native",
@@ -13,7 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "theshubhamy",
-  "license": "MIT",
   "dependencies": {
     "ffmpeg-kit-react-native": "^6.0.2"
   },
