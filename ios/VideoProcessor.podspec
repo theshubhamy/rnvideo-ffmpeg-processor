@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "rnvideo-ffmpeg-processor"
-  spec.version      = "1.0.0"
+  spec.version      = "1.1.0"
   spec.summary      = "A React Native module for video processing using FFmpeg."
   spec.description  = "A React Native module that provides video processing functionalities such as trimming, cropping, and merging using FFmpeg."
   spec.license      = { :type => "MIT" }
