@@ -1,5 +1,8 @@
+apply plugin: 'com.android.library'
+
 android {
     compileSdkVersion 30
+
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
@@ -11,4 +14,8 @@ android {
         pickFirst 'lib/arm64-v8a/libc++_shared.so'
         pickFirst 'lib/armeabi-v7a/libc++_shared.so'
     }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
 }

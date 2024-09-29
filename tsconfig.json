@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "esnext"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./lib", // Output directory
+    "rootDir": "./src", // Root directory for input files
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true, // Generate .d.ts files
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], // Ensure src/ contains TypeScript files
+  "exclude": ["node_modules", "**/__tests__/*"]
+}

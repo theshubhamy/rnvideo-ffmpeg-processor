@@ -1,9 +1,10 @@
 {
   "name": "rnvideo-ffmpeg-processor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A React Native module for video processing using FFmpeg",
   "license": "MIT",
-  "main": "lib/index.js",
+  "main": "src/index.js",
+  "types": "lib/index.d.ts",
   "keywords": [
     "react-native",
     "ffmpeg",
@@ -11,10 +12,12 @@
     "processing"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "author": "theshubhamy",
   "dependencies": {
+    "@react-native-community/cli": "^5.0.1",
     "ffmpeg-kit-react-native": "^6.0.2"
   },
   "peerDependencies": {
@@ -23,5 +26,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theshubhamy/rnvideo-ffmpeg-processor.git"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.6.2"
   }
 }

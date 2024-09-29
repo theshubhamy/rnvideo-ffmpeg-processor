@@ -1,0 +1,9 @@
+node_modules/
+lib/
+example/
+test/
+Pods/
+ios/Podfile
+ios/Podfile.lock
+android/.gradle/
+android/app/build/

@@ -2,8 +2,8 @@ Here’s a sample `README.md` for your custom React Native NPM package, **rnvide
 
 # rnvideo-ffmpeg-processor
 
-[![NPM version](https://img.shields.io/npm/v/rnvideo-ffmpeg-processor.svg?style=flat)](https://www.npmjs.com/package/rnvideo-ffmpeg-processor)
-[![License](https://img.shields.io/npm/l/rnvideo-ffmpeg-processor.svg?style=flat)](https://www.npmjs.com/package/rnvideo-ffmpeg-processor)
+[![npm version](https://badge.fury.io/js/rnvideo-ffmpeg-processor.svg)](https://www.npmjs.com/package/rnvideo-ffmpeg-processor)
+[![License](https://img.shields.io/npm/l/rnvideo-ffmpeg-processor.svg)](https://www.npmjs.com/package/rnvideo-ffmpeg-processor)
 
 A React Native module that enables powerful video processing using **FFmpeg**, including features such as trimming, cropping, merging videos, adding text overlays, and much more.
 
